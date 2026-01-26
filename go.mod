@@ -1,4 +1,4 @@
-module testfeishu
+module web-exposure-check
 
 go 1.25.4
 

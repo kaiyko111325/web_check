@@ -6,12 +6,12 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
-	"testfeishu/FeiShuApi"
-	"testfeishu/checker"
-	"testfeishu/config"
-	"testfeishu/logger"
-	"testfeishu/notifier"
 	"time"
+	"web-exposure-check/FeiShuApi"
+	"web-exposure-check/checker"
+	"web-exposure-check/config"
+	"web-exposure-check/logger"
+	"web-exposure-check/notifier"
 )
 
 // 从飞书指定文档中读取待扫描的url，并保存为targets.yaml到config目录下

@@ -5,9 +5,9 @@ import (
 	"io"
 	"log"
 	"os"
-	"testfeishu/checker"
-	"testfeishu/notifier"
 	"time"
+	"web-exposure-check/checker"
+	"web-exposure-check/notifier"
 )
 
 type Level string
