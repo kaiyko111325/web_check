@@ -1,0 +1,89 @@
+2026/01/20 18:06:37 feishu.go:30: 开始发送告警消息
+2026/01/20 18:06:37 feishu.go:51: 飞书接口响应状态：success
+2026/01/20 18:06:37 feishu.go:53: 告警消息发送成功!
+2026/01/20 18:06:37 logger.go:22: [INFO] null
+2026/01/20 18:06:37 logger.go:25:   起始 URL: http://opgame.uuzu.com
+2026/01/20 18:06:37 logger.go:25:   最终 URL: http://opgame.uuzu.com/site/login
+2026/01/20 18:06:37 logger.go:25:   页面标题: 
+2026/01/20 18:06:37 logger.go:25:   HTTP 状态码: 403
+2026/01/20 18:06:37 logger.go:25:   响应体大小: 25 bytes
+2026/01/20 18:06:37 logger.go:25:   状态说明: [√] 非200状态码，可能未授权访问或资源受限
+2026/01/20 18:06:37 logger.go:22: [ERROR] null
+2026/01/20 18:06:37 logger.go:25:   URL: http://gm-sds.gtarcade.com.youzudns.net
+2026/01/20 18:06:37 logger.go:25:   检测结果: 请求失败
+2026/01/20 18:06:37 logger.go:25:   失败原因: 请求失败：网络错误（连接失败或目标不可达）
+2026/01/20 18:06:37 logger.go:25:   HTTP 状态码: 无（未收到响应）
+2026/01/20 18:06:47 logger.go:22: [ERROR] null
+2026/01/20 18:06:47 logger.go:25:   URL: http://gm-sds.gtarcade.com
+2026/01/20 18:06:47 logger.go:25:   检测结果: 请求失败
+2026/01/20 18:06:47 logger.go:25:   失败原因: 请求失败：请求超时（目标长时间未响应，可能端口被防火墙拦截或服务不可达）
+2026/01/20 18:06:47 logger.go:25:   HTTP 状态码: 无（未收到响应）
+2026/01/20 18:06:47 logger.go:22: [ERROR] null
+2026/01/20 18:06:47 logger.go:25:   URL: http://gmnode-2975410001-1000300.youzu.com
+2026/01/20 18:06:47 logger.go:25:   检测结果: 请求失败
+2026/01/20 18:06:47 logger.go:25:   失败原因: 请求失败：网络错误（连接失败或目标不可达）
+2026/01/20 18:06:47 logger.go:25:   HTTP 状态码: 无（未收到响应）
+2026/01/20 18:06:47 logger.go:22: [ERROR] null
+2026/01/20 18:06:47 logger.go:25:   URL: http://gmnode-2975430002-1000300.youzu.com
+2026/01/20 18:06:47 logger.go:25:   检测结果: 请求失败
+2026/01/20 18:06:47 logger.go:25:   失败原因: 请求失败：网络错误（连接失败或目标不可达）
+2026/01/20 18:06:47 logger.go:25:   HTTP 状态码: 无（未收到响应）
+2026/01/20 18:06:47 logger.go:22: [ERROR] null
+2026/01/20 18:06:47 logger.go:25:   URL: http://gotpc-hj-opsgm.gtarcade.com
+2026/01/20 18:06:47 logger.go:25:   检测结果: 请求失败
+2026/01/20 18:06:47 logger.go:25:   失败原因: 请求失败：网络错误（连接失败或目标不可达）
+2026/01/20 18:06:47 logger.go:25:   HTTP 状态码: 无（未收到响应）
+2026/01/20 18:06:47 logger.go:22: [ERROR] null
+2026/01/20 18:06:47 logger.go:25:   URL: http://gotpc-hj-test-opsgm.gtarcade.com
+2026/01/20 18:06:47 logger.go:25:   检测结果: 请求失败
+2026/01/20 18:06:47 logger.go:25:   失败原因: 请求失败：网络错误（连接失败或目标不可达）
+2026/01/20 18:06:47 logger.go:25:   HTTP 状态码: 无（未收到响应）
+2026/01/20 18:06:48 logger.go:22: [INFO] null
+2026/01/20 18:06:48 logger.go:25:   起始 URL: http://nslm2-181-webgm.youzu.com
+2026/01/20 18:06:48 logger.go:25:   最终 URL: http://nslm2-181-webgm.youzu.com
+2026/01/20 18:06:48 logger.go:25:   页面标题: 403 Forbidden
+2026/01/20 18:06:48 logger.go:25:   HTTP 状态码: 403
+2026/01/20 18:06:48 logger.go:25:   响应体大小: 168 bytes
+2026/01/20 18:06:48 logger.go:25:   状态说明: [√] 非200状态码，可能未授权访问或资源受限
+2026/01/20 18:06:48 logger.go:22: [ALERT] null
+2026/01/20 18:06:48 logger.go:25:   起始 URL: http://gm.uuzu.com
+2026/01/20 18:06:48 logger.go:25:   最终 URL: http://gm.uuzu.com
+2026/01/20 18:06:48 logger.go:25:   页面标题: GM管理后台
+2026/01/20 18:06:48 logger.go:25:   HTTP 状态码: 200
+2026/01/20 18:06:48 logger.go:25:   响应体大小: 3602 bytes
+2026/01/20 18:06:48 logger.go:25:   风险判断: [x] 不允许公网访问，但实际可访问
+2026/01/20 18:06:48 feishu.go:30: 开始发送告警消息
+2026/01/20 18:06:48 feishu.go:51: 飞书接口响应状态：success
+2026/01/20 18:06:48 feishu.go:53: 告警消息发送成功!
+2026/01/20 18:06:48 logger.go:22: [INFO] null
+2026/01/20 18:06:48 logger.go:25:   起始 URL: http://nslm2-181-s0-webgm.youzu.com
+2026/01/20 18:06:48 logger.go:25:   最终 URL: http://nslm2-181-s0-webgm.youzu.com
+2026/01/20 18:06:48 logger.go:25:   页面标题: 403 Forbidden
+2026/01/20 18:06:48 logger.go:25:   HTTP 状态码: 403
+2026/01/20 18:06:48 logger.go:25:   响应体大小: 168 bytes
+2026/01/20 18:06:48 logger.go:25:   状态说明: [√] 非200状态码，可能未授权访问或资源受限
+2026/01/20 18:06:48 logger.go:22: [ERROR] null
+2026/01/20 18:06:48 logger.go:25:   URL: http://fc.fancy3d.com
+2026/01/20 18:06:48 logger.go:25:   检测结果: 请求失败
+2026/01/20 18:06:48 logger.go:25:   失败原因: 请求失败：网络错误（连接失败或目标不可达）
+2026/01/20 18:06:48 logger.go:25:   HTTP 状态码: 无（未收到响应）
+2026/01/20 18:06:49 logger.go:22: [ERROR] null
+2026/01/20 18:06:49 logger.go:25:   URL: http://data-yz.fancy3d.com
+2026/01/20 18:06:49 logger.go:25:   检测结果: 请求失败
+2026/01/20 18:06:49 logger.go:25:   失败原因: 请求失败：网络错误（连接失败或目标不可达）
+2026/01/20 18:06:49 logger.go:25:   HTTP 状态码: 无（未收到响应）
+2026/01/20 18:06:49 logger.go:22: [ALERT] null
+2026/01/20 18:06:49 logger.go:25:   起始 URL: http://fancy-gm.uuzuonline.net
+2026/01/20 18:06:49 logger.go:25:   最终 URL: http://fancy-gm.uuzuonline.net/login
+2026/01/20 18:06:49 logger.go:25:   页面标题: Fancy Data | FancyGuo
+2026/01/20 18:06:49 logger.go:25:   HTTP 状态码: 200
+2026/01/20 18:06:49 logger.go:25:   响应体大小: 13224 bytes
+2026/01/20 18:06:49 logger.go:25:   风险判断: [x] 不允许公网访问，但实际可访问
+2026/01/20 18:06:49 feishu.go:30: 开始发送告警消息
+2026/01/20 18:06:49 feishu.go:51: 飞书接口响应状态：success
+2026/01/20 18:06:49 feishu.go:53: 告警消息发送成功!
+2026/01/20 18:06:59 logger.go:22: [ERROR] null
+2026/01/20 18:06:59 logger.go:25:   URL: http://gm3-eoa-int.uuzuonline.com
+2026/01/20 18:06:59 logger.go:25:   检测结果: 请求失败
+2026/01/20 18:06:59 logger.go:25:   失败原因: 请求失败：请求超时（目标长时间未响应，可能端口被防火墙拦截或服务不可达）
+2026/01/20 18:06:59 logger.go:25:   HTTP 状态码: 无（未收到响应）
